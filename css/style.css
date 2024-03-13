@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pavanam&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/*página home*/
+
+.headerHome{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../assets/img/fondos/fondo-1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/*barra de navegación*/
+.nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ulNav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    list-style: none;
+    margin-left: 10%;
+}
+
+.ulNav li a{
+    color: white;
+    font-family: "Pavanam";
+    font-weight: lighter;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.botonNav{
+    width: 18%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.botonBook{
+    padding: 8px 25px 8px 25px;
+    background: linear-gradient(black, rgba(255, 255, 255, 0));
+    border-radius: 6px;
+    color: white;
+    font-family: "Pavanam";
+    font-weight: normal;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/*sección principal*/
+
+.secciónPrincipal{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.contenedorTítulo{
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedorTítulo h1{
+    color: white;
+    font-size: 170px;
+    font-family: "Josefin Sans";
+    letter-spacing: 15px;
+}
+
+.contenedorRedes{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    margin-right: 60px;
+}
+
+.contenedorRedes a img{
+    height: 25px;
+    width: 25px;
+}
+
+.párrafo{
+    color: white;
+    font-family: "Pavanam";
+    font-weight: lighter;
+    font-size: 20px;
+    letter-spacing: 6px;
+    padding-right: 350px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+.contenedorDestinos{
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+}
+
+.contenedorDestinosDos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.233);
+    border-radius: 3px;
+    height: 70px;
+    width: 200px;
+    gap: 10px;
+}
+
+.contenedorDestinosDos img{
+    height: 20px;
+    width: 20px;
+}
+
+.ulDestinos{
+    color: white;
+    list-style: none;
+    font-family: "Pavanam";
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+
+/*sección dos*/
+
+.secciónDos{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/img/fondos/fondo-2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.secciónDos h2{
+    color: white;
+    font-family: "Josefin Sans";
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+.contenedorSecciónDos{
+    height: 80%;
+    width: 85%;
+    border: 1px solid #2fb3da;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.articleSecciónDos{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.articleSecciónDos h3{
+    color: white;
+    font-family: "Pavanam";
+    font-weight: lighter;
+    font-size: 26px;
+    letter-spacing: 2px;
+    width: 80%;
+}
+
+.articleSecciónDos ul{
+    width: 80%;
+    color: white;
+    list-style:circle;
+    font-family: "Pavanam";
+    font-size: 18px;
+}
+
+.articleSecciónDos ul li{
+    margin-top: 15px;
+}
+
+.articleSecciónDos a{
+    background-color: #2fb3da;
+    text-decoration: none;
+    font-family: "Josefin Sans";
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.contenedorSlider{
+    width: 70%;
+    height: 100%;
+}
+
+
+/*sección about (tres)*/
+
+.secciónTres{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/img/fondos/fondo-3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.secciónTres h2{
+    color: white;
+    font-family: "Josefin Sans";
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+.contenedorSecciónTres{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 80%;
+    width: 100%;
+}
+
+.contenedorSecciónTres img{
+    border-radius: 25px;
+}
+
+.contenedorArticle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    height: 70%;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.096);
+}
+
+.contenedorArticle article{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contenedorArticle article h3{
+    font-family: "Pavanam";
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.contenedorArticle article p{
+    color: white;
+    font-family: "Pavanam";
+    font-weight: lighter;
+    font-size: 19px;
+}
+
+.contenedorArticle article a{
+    width: 150px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: "Josefin Sans";
+    background-color: #2fb3da;
+}
+
+.contenedorUl{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    height: 20%;
+}
+
+.ul1{
+    list-style: none;
+    color: white;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+}
+
+.ul2{
+    list-style: none;
+    color: white;
+    font-family: "Pavanam";
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+/*página en progreso*/
+
+.sectionProgress{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    height: 100vh;
+}
+
+.inProgress{
+    font-family: "Josefin Sans";
+}
+
+.imgProgress{
+    height: 400px;
+}
+
+
+
+
+
+
