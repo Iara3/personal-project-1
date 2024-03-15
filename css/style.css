@@ -6,6 +6,21 @@
     box-sizing: border-box;
 }
 
+p::selection{
+    background-color: #2fb2da9a;
+    color: white;
+}
+
+li::selection{
+    background-color: #2fb2da9a;
+    color: white;
+}
+
+li b::selection{
+    background-color: #2fb2da9a;
+    color: white;
+}
+
 /*página home*/
 
 .headerHome{
@@ -45,16 +60,19 @@
     text-decoration: none;
 }
 
-.botonNav{
+.ulNav li a:hover{
+    color: #2fb3da;
+}
+
+.contenedorBotónBook{
     width: 18%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-.botonBook{
+.botónBook{
     padding: 8px 25px 8px 25px;
     background: linear-gradient(black, rgba(255, 255, 255, 0));
     border-radius: 6px;
@@ -87,6 +105,7 @@
     font-size: 170px;
     font-family: "Josefin Sans";
     letter-spacing: 15px;
+    user-select: none;
 }
 
 .contenedorRedes{
@@ -133,6 +152,7 @@
 .contenedorDestinosDos img{
     height: 20px;
     width: 20px;
+    user-select: none;
 }
 
 .ulDestinos{
@@ -164,6 +184,7 @@
     font-family: "Josefin Sans";
     font-size: 28px;
     letter-spacing: 2px;
+    user-select: none;
 }
 
 .contenedorSecciónDos{
@@ -192,6 +213,7 @@
     font-size: 26px;
     letter-spacing: 2px;
     width: 80%;
+    user-select: none;
 }
 
 .articleSecciónDos ul{
@@ -243,6 +265,7 @@
     font-family: "Josefin Sans";
     font-size: 28px;
     letter-spacing: 2px;
+    user-select: none;
 }
 
 .contenedorSecciónTres{
@@ -283,6 +306,7 @@
     color: white;
     font-size: 25px;
     letter-spacing: 2px;
+    user-select: none;
 }
 
 .contenedorArticle article p{
@@ -341,6 +365,7 @@
     font-family: "Josefin Sans";
     font-size: 28px;
     letter-spacing: 2px;
+    user-select: none;
 }
 
 .secciónCuatro1{
@@ -393,6 +418,7 @@
     color: white;
     font-size: 25px;
     letter-spacing: 2px;
+    user-select: none;
 }
 
 .contenedorArticleSección4 article p{
@@ -434,6 +460,7 @@
     margin-left: 30px;
     justify-self: left;
     width: 80%;
+    user-select: none;
 }
 
 .contenedorSlider2{
@@ -468,6 +495,7 @@
     font-family: "Josefin Sans";
     font-size: 28px;
     letter-spacing: 2px;
+    user-select: none;
 }
 
 .contenedorSlider3{
@@ -492,6 +520,7 @@
     font-size: 28px;
     letter-spacing: 3px;
     line-height: 35px;
+    user-select: none;
 }
 
 .formularioSección5{
